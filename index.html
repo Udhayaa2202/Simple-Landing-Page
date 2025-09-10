@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Simple Landing Page</title>
-</head> 
+</head>
 
 <body>
     <div class="container">
@@ -30,15 +31,29 @@
 
         <div class="main-content">
             <div class="image-pista">
-                <img src="images/img1.png" alt="">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/img1.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img2.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img3.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="main-text">
                 <h1>The <br>PistaSpot</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, sapiente.</p>
+                <p>Lorem, ipsum dolor sit amet consectetu   r adipisicing elit. Repudiandae, sapiente.</p>
                 <button>Know More</button>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -114,3 +114,15 @@ nav ul li a:hover:after{
   cursor: pointer;
   color: white;
 }
+
+.swiper{
+  width: 25rem;
+  height: 30rem;
+  z-index: 5;
+}
+
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
