@@ -1,6 +1,6 @@
 .germania-one-regular {
   font-family: "Germania One", system-ui;
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -21,7 +21,7 @@
 .wave{
     position: absolute;
     top: 0;
-    right: 30%;
+    right: 28%;
 }
 
 nav {
@@ -51,7 +51,10 @@ nav ul li a{
   position: relative;
   z-index: 1;
 }
-
+nav img{
+  width: 100px;
+  height: 100px;
+}
 nav ul li a::after{
   content: "";
   width: 0;
@@ -67,4 +70,47 @@ nav ul li a::after{
 
 nav ul li a:hover:after{
   width: 100%;
+}
+
+.main-content{
+  width: 60%;
+  padding-top: 100px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-pista, .main-text{
+  flex-basis: 50%;
+}
+
+.image-pista img{
+  width: 100%;
+}
+
+.main-content h1 {
+  font-size: 60px;
+  letter-spacing: 6px;
+  color: #494234;
+}
+
+.main-content p{
+  margin-top: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-content button{
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  outline: none;
+  border: none;
+  padding: 10px 50px 10px 10px;
+  border-radius: 0 50% 50% 0;
+  background-color: #494234;
+  cursor: pointer;
+  color: white;
 }
