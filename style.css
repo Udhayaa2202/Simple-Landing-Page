@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     font-family: "Germania One";
+    user-select: none;
 }
 
 .container{
@@ -130,12 +131,13 @@ nav ul li a:hover:after{
 .right{
   position: absolute;
   right: 3%;
-  bottom: 20%;
+  bottom: 30%;
 }
 
 .box{
   display: flex;
   align-items: center;
+  margin-top: 30px;
 }
 
 .right .box .image img{
@@ -144,8 +146,8 @@ nav ul li a:hover:after{
 
 .image{
   margin-top: 2rem;
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   box-shadow: -5px 5px 17px rgba(0,0,0,0.3);
   display: flex;
@@ -161,11 +163,26 @@ nav ul li a:hover:after{
   margin: 1.5rem 0 0 1rem;
 }
 
-.inner-box h3,p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.inner-box h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;   
 }
 
-.inner-box h3{
-  line-height: 30px;
+.inner-box p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+footer{
+  float: right;
+  margin: 90px 50px 5px 5px; 
+}
+
+footer p{
+  font-family: 'Times New Roman', Times, serif;
+}
+footer p a{
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  color: #495341;
 }
