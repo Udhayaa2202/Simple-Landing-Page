@@ -126,3 +126,46 @@ nav ul li a:hover:after{
   align-items: center;
   justify-content: center;
 }
+
+.right{
+  position: absolute;
+  right: 3%;
+  bottom: 20%;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+}
+
+.right .box .image img{
+  width: 80%;
+}
+
+.image{
+  margin-top: 2rem;
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  box-shadow: -5px 5px 17px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  transition: 0.5s;
+}
+.image:hover{
+  background-color: rgb(73, 66, 52, 0.7);
+}
+
+.box .inner-box{
+  margin: 1.5rem 0 0 1rem;
+}
+
+.inner-box h3,p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;   
+}
+
+.inner-box h3{
+  line-height: 30px;
+}
