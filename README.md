@@ -1,1 +1,2 @@
 Started My Learning Journey With My Simple Landing Page 
+Learned Basic tags and Css
